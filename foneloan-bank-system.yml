@@ -1,5 +1,5 @@
 server:
-  port: 0  # Let Spring Boot choose a random available port
+  port: 8082  # Let Spring Boot choose a random available port
 
 spring:
   application:
