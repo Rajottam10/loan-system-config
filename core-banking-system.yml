@@ -5,12 +5,12 @@ spring:
   application:
     name: core-banking-system
   datasource:
-    password: 9840115582
     url: jdbc:mysql://localhost:3306/account
     username: root
+    password: 9840115582  # Consider using environment variables or Spring Cloud Config for security
   jpa:
     hibernate:
-    ddl-auto: update
+      ddl-auto: update
     show-sql: true
 
 eureka:
